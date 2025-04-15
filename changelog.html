@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ChangeLog</title>
+
+        <style>
+            .title {
+                font-family: Arial;
+                font-size: 40px;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .subtitle{
+                font-family: Arial;
+                text-align: center;
+                margin-top: 0;
+                color:rgba(133, 133, 133, 0.729);
+            }
+            body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 600px;
+      margin: 0 auto;
+      padding-left: 20px;
+      border-left: 3px solid #000;
+    }
+
+    .timeline-event {
+      position: relative;
+      padding: 10px 0 10px 20px;
+    }
+
+    .timeline-event::before {
+      content: "";
+      position: absolute;
+      left: -11px;
+      top: 18px;
+      width: 12px;
+      height: 12px;
+      background-color: #000;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .event-date {
+      color: grey;
+      font-size: 14px;
+    }
+
+    .event-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #000;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .timeline-button {
+      background-color: #000;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+
+    .timeline-button:hover {
+      background-color: #333;
+    }
+        </style>
+    </head>
+    <body>
+        <p class="title">ChangeLog </p>
+        <p class="subtitle"> Here's everything we have shipped in the past few days</p>
+
+        <div class="timeline">
+            <div class="timeline-event">
+              <div class="event-date">September 3, 2024</div>
+              <div class="event-title">Announcing Projects on Frontend Roadmap</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 28, 2024</div>
+              <div class="event-title">Build your learning habits with learning streaks</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 25, 2024</div>
+              <div class="event-title">Git and GitHub Roadmap</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 22, 2024</div>
+              <div class="event-title">Submit your project solution and get feedback</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 15, 2024</div>
+              <div class="event-title">Backend Project Ideas</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 10, 2024</div>
+              <div class="event-title">Redis roadmap</div>
+            </div>
+            <div class="timeline-event">
+              <div class="event-date">August 1, 2024</div>
+              <div class="event-title">Changelog page to help you stay in the loop</div>
+            </div>
+          </div>
+        
+          <div class="button-container">
+            <a href="#" class="timeline-button">Visit Complete Changelog</a>
+          </div>
+          
+    </body>
+</html>
